@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #img-input {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  #img-input + label {
+    display: inline-block;
+    border: 1px solid grey;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #img-input + label:hover,
+  #img-input:focus + label {
+    background: lightgray;
+  }
+  
+  #filter-canvas {
+    border: 1px dotted grey;
+  }
+  
